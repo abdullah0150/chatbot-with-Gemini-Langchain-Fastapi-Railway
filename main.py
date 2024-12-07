@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings
-import langchain_core.prompts.PromptTemplate
+from langchain_core.prompts import PromptTemplate
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_core.runnables import RunnablePassthrough
 from langchain_community.document_loaders import PyPDFLoader
