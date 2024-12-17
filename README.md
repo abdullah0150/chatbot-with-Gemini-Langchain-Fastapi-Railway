@@ -4,8 +4,9 @@ A robust FastAPI application leveraging LangChain, Google Generative AI, and FAI
 
 ---
 
-## 📹 Demo Video
-> Download the video to watch the demo.
+## 📹 Demo
+![Demo](demo_gif.gif)
+> Check out the application in action!
 
 ---
 
